@@ -18,7 +18,7 @@
         
         L.control.attribution({ prefix: false }).addTo(map);
 
-        // Menggunakan tile OpenStreetMap publik agar peta muncul online
+        // Tile layer menggunakan link HTTPS publik OpenStreetMap
         var tilesource_layer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             minZoom: 1,
             maxZoom: 19,
